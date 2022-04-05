@@ -8,9 +8,9 @@ public class ciftsayilarıbul {
         System.out.println("Sayı giriniz : ");
         k=sayi.nextInt();
         int i =1;
-        for (i=1;i<=k;i++)
+        for (i=0;i<=k;i++)
         {
-            if (i%2==0){
+            if (i%3==0 && i%4==0){
                 System.out.println(i);
             }
         }
