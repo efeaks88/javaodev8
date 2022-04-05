@@ -1,0 +1,18 @@
+package giris;
+import java.util.Scanner;
+public class ciftsayilarıbul {
+    public static void main(String[] args) {
+        int k;
+        Scanner sayi = new Scanner(System.in);
+
+        System.out.println("Sayı giriniz : ");
+        k=sayi.nextInt();
+        int i =1;
+        for (i=1;i<=k;i++)
+        {
+            if (i%2==0){
+                System.out.println(i);
+            }
+        }
+    }
+}
